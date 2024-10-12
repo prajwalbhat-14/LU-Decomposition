@@ -1,0 +1,30 @@
+
+import numpy as np
+from scipy.linalg import lu
+
+# Example dataset as a matrix
+A = np.array([[2, 1, 1],
+              [4, -6, 0],
+              [-2, 7, 2]])
+
+# Perform LU decomposition
+P, L, U = lu(A)
+
+# Output the results
+print("Original Matrix (A):")
+print(A)
+
+print("\nPermutation Matrix (P):")
+print(P)
+
+print("\nLower Triangular Matrix (L):")
+print(L)
+
+print("\nUpper Triangular Matrix (U):")
+print(U)
+
+# Verify the decomposition
+# A = P @ L @ U
+reconstructed_A = P @ L @ U
+print("\nReconstructed Matrix (should be equal to A):")
+print(reconstructed_A)
