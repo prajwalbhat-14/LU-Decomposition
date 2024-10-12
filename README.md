@@ -35,7 +35,7 @@ To factor any square matrix into two triangular matrices i.e., one is a lower tr
 ![Image](https://github.com/user-attachments/assets/fd1eb717-bc88-454d-96da-eee5a788f839)
 
 ## Implementation
-#Method-1:
+#Method-1: Doolittle Algorithm
 
      MAX = 100
 
