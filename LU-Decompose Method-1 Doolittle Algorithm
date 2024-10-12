@@ -1,3 +1,5 @@
+#Doolittle Algorithm
+
 MAX = 100
 def luDecomposition(mat, n):
 
