@@ -4,6 +4,10 @@ LU decomposition of a matrix is the factorization of a given square matrix into 
 
 LU Decomposition is a fundamental technique in linear algebra used to solve systems of linear equations, invert matrices, and compute determinants. It decomposes a given matrix into two triangular matrices, one lower (L) and one upper (U). This decomposition simplifies many matrix operations, making it an essential tool in various engineering applications.
 
+### Doolittle Algorithm
+The Doolittle Algorithm is a method for performing LU Decomposition, where a given matrix is decomposed into a lower triangular matrix L and an upper triangular matrix U. This decomposition is widely used in solving systems of linear equations, inverting matrices, and computing determinants.
+
+
 ### Gauss Elimination Method
 Gaussian Elimination, also known as Gauss-Jordan Elimination, is a method used in linear algebra to solve systems of linear equations and to find the inverse of a matrix. It’s named after the mathematician Carl Friedrich Gauss and also the mathematician Wilhelm Jordan, who made significant contributions to its development.
 
